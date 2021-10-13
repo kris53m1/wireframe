@@ -1,2 +1,262 @@
 :root {
+  --h1-font: "Archivo", sans-serif;
+  --h2-font: "Jost", sans-serif;
+  --h3-font: "Jost", sans-serif;
+  --p-li-font: "Spartan", sans-serif;
+  --btn-font: "IBM Plex Sans", sans-serif;
+
+  --color_1: #5c160f;
+  --color_2: #f53723;
+  --color_3: #b32c1d;
+  --color_4: #fca8aa;
+  --color_5: #5c2f2a;
+  --color_6: #db3623;
+  --color-black: #000;
+  --color-white: #fff;
+}
+
+/* detajler */
+
+h1 {
+  letter-spacing: 2rem;
+  font-family: var(--h1-font);
+  /* font-weight: lighter; */
+  margin-top: 3px;
+  /* font-size: 5.5rem; */
+  color: var(--color_1);
+}
+
+h2 {
+  font-family: var(--h2-font);
+  font-weight: lighter;
+  font-size: 3rem;
+  /* padding: 2rem; */
+  /* background-color: var(--color_1);
+  color: #f53723; */
+}
+h3 {
+  font-family: var(--h3-font);
+  font-weight: lighter;
+  font-size: 2rem;
+  /* padding: 1.5rem; */
+}
+
+p,
+li {
+  font-family: var(--p-li-font);
+  font-weight: lighter;
+  padding: 1rem;
+}
+
+.event_button {
+  padding: 4px;
+  border-radius: 42px;
+  width: 170px;
+  color: var(--color_2);
+  background: var(--color-white);
+  font-family: var(--btn-font);
+  border: solid;
+  border-color: var(--color_4);
+  /* font-weight: bold; */
+  text-decoration: none;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  margin: auto;
+  line-height: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.event_button:hover {
+  background: var(--color_2);
+  color: #fca8aa;
+  border: none;
+}
+
+/* img {
+  padding: 1rem;
+} */
+
+/* sections  */
+
+.container {
+  max-width: 100%;
+}
+#section1 div {
+  align-items: top;
+}
+#section1 div * {
+  grid-area: 1 / 1/ -1/ -1;
+}
+footer {
+  background-color: var(--color_1);
+}
+
+#section2 h2 {
+  padding: 2rem;
+  font-size: 3rem;
+  text-align: center;
+  /* letter-spacing: 0.5rem; */
+  background-color: #5c160f;
+  color: #f53723;
+  padding: 1rem;
+  margin-top: 0.8rem;
+  margin-bottom: 0.8rem;
+}
+
+#section2 h3 {
+  padding: 1rem;
+  line-height: 2rem;
+  /* margin-top: -1rem; */
+}
+
+#section2 p {
+  line-height: 3rem;
+  padding: 1rem;
+  margin-top: -1rem;
+}
+
+#section2 img {
+  /* padding: 1vw; */
+  /* width: 100vw;
+  height: 10vw; */
+}
+
+#section3 {
+  /* border-radius: 3px;
+  background-color: var(--color_2); */
+  /* background-color: var(--color_4); */
+  /* border-inline-color: var(--color_1); */
+}
+
+#section3 h2 {
+  padding: 2rem;
+  font-size: 3rem;
+  color: var(--color_2);
+  background-color: var(--color_4);
+  margin-top: 0.8rem;
+  margin-bottom: 0.8rem;
+}
+#section3 h3 {
+  padding: 1rem;
+  text-align: center;
+  font-size: 2rem;
+  line-height: 2.2rem;
+}
+
+#section3 p {
+  text-align: center;
+  line-height: 2rem;
+}
+
+#section3 img {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+#section4 h2 {
+  padding: 2rem;
+  font-size: 3rem;
+  /* margin-left: 2rem; */
+  background-color: var(--color_3);
+  color: #fca8aa;
+  margin-top: 0.8rem;
+  margin-bottom: 0.8rem;
+}
+
+/* #section5 {
+} */
+
+#section5 h2 {
+  /* margin-left: 2rem; */
+  padding: 2rem;
+  background-color: var(--color_3);
+  color: #fca8aa;
+  font-size: 3rem;
+  text-align: center;
+  margin-top: 0.8rem;
+  margin-bottom: 0.8rem;
+}
+#section5 h3 {
+  padding: 1rem;
+  font-size: 1.8rem;
+  font-weight: lighter;
+  color: #5c160f;
+}
+#section5 ol,
+li {
+  padding: 1rem;
+  line-height: 2rem;
+  margin-left: 2rem;
+  font-size: 1.3rem;
+  font-weight: lighter;
+  color: #b32c1d;
+}
+
+#section5 img {
+  height: 270px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* #section5 h3 {
+  text-align: center;
+} */
+
+#section6 h2 {
+  background-color: var(--color_4);
+  color: var(--color_2);
+  margin-top: 0.8rem;
+  margin-bottom: 0.8rem;
+  padding: 1rem;
+  font-size: 3rem;
+}
+
+#section6 h3 {
+  font-size: 2rem;
+  margin-left: 1rem;
+}
+
+#section6 p {
+  line-height: 3rem;
+}
+
+#section7 h2 {
+  margin-top: 0.8rem;
+  margin-bottom: 0.8rem;
+  background-color: var(--color_1);
+  color: var(--color_2);
+  font-size: 3rem;
+  padding: 1rem;
+}
+
+#section7 h3 {
+  font-size: 2rem;
+  margin-left: 1rem;
+}
+
+#section7 p {
+  line-height: 2.5rem;
+}
+
+.section7_row1_billede {
+}
+/* #section7 img {
+  display: block;
+  margin-top: auto;
+  margin-bottom: auto;
+
+} */
+
+/* mediaquieries */
+
+@media screen and (min-width: 674px) {
+  h1 {
+    font-size: 5.5rem;
+  }
+}
+.row {
+  --bs-gutter-x: 0;
 }
